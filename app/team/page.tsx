@@ -3,14 +3,14 @@ export default function TeamPage() {
     const coFounders = [
       {
         name: 'Vidhi Gondalia',
-        role: 'Cxx & Co-Founder',
-        image: 'https://via.placeholder.com/400x400.png?text=John+Doe',
+        role: 'Co-Founder',
+        image: '/vidhigondalia.png',
         linkedin: 'https://www.linkedin.com/in/vidhi-gondalia',
       },
       {
         name: 'Prasanna Bansode',
-        role: 'Cxx & Co-Founder',
-        image: 'https://via.placeholder.com/400x400.png?text=Jane+Doe',
+        role: 'Co-Founder',
+        image: '/prasannabansode.png',
         linkedin: 'https://www.linkedin.com/in/prasanna-bansode',
       },
     ]
@@ -18,16 +18,16 @@ export default function TeamPage() {
     // Remaining team members (4 people per row)
     const teamMembers = [
       {
-        name: 'Vidhi Gondalia',
-        role: 'Software Engineer',
-        image: 'https://via.placeholder.com/300x300.png?text=Vidhi+Gondalia',
-        linkedin: 'https://www.linkedin.com/in/vidhi-gondalia',
+        name: 'Devanshi Patel',
+        role: 'Application Developer',
+        image: '/devanshipatel.png',
+        linkedin: 'https://www.linkedin.com/in/devanshi--patel/',
       },
       {
-        name: 'Prasanna Bansode',
-        role: 'Software Engineer',
-        image: 'https://via.placeholder.com/300x300.png?text=Prasanna+Bansode',
-        linkedin: 'https://www.linkedin.com/in/prasanna-bansode',
+        name: 'Devan Kumar',
+        role: 'Embedded Software Engineer',
+        image: '/devankumar.png',
+        linkedin: 'https://www.linkedin.com/in/devankumar222/',
       },
       {
         name: 'Darsh Gondalia',
@@ -37,15 +37,15 @@ export default function TeamPage() {
       },
       {
         name: 'Avinash Bedi',
-        role: 'Product Manager',
-        image: 'https://via.placeholder.com/300x300.png?text=Avinash+Bedi',
+        role: 'Market Research and Outreach',
+        image: '/avibedi.png',
         linkedin: 'https://www.linkedin.com/in/avinash-bedi',
       },
       // Add more team members if needed
     ]
   
     return (
-      <div className="bg-[#C1E899] min-h-screen text-black px-4 py-8">
+      <div className="bg-[#A8B5A6] min-h-screen text-black px-4 py-8">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl font-bold mb-4">Meet the Team</h1>
           <p className="mb-8 text-lg">
