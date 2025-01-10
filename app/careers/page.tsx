@@ -1,6 +1,6 @@
 export default function CareersPage() {
     return (
-      <div className="bg-[#C1E899] min-h-screen text-black px-4 py-8">
+      <div className="bg-[#A8B5A6] min-h-screen text-black px-4 py-8">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl font-bold mb-6">Join Our Team at CuraFitt</h1>
           <p className="mb-4">
