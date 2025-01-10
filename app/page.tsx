@@ -28,7 +28,7 @@ export default function HomePage() {
             Revolutionizing Recovery: Smarter Physical Therapy for Faster Results
           </h1>
           <p className="text-lg">
-            Discover how our innovative solutions transform ACL rehabilitation 
+            Discover how our innovative solutions transform rehabilitation 
             for patients and physical therapists alike.
           </p>
         </div>
@@ -58,11 +58,11 @@ export default function HomePage() {
       <section className="bg-[#E6F0DC] py-8 px-4 md:px-8">
         <div className="text-center max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-4">
-            Empowering Faster, Smarter ACL Recovery
+            Empowering Faster, Smarter Recovery
           </h2>
           <p className="mb-6">
             We design cutting-edge wearable devices that provide real-time feedback 
-            and data-driven insights to revolutionize ACL rehabilitation and improve 
+            and data-driven insights to revolutionize rehabilitation and improve 
             physical therapy outcomes.
           </p>
 
