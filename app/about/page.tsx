@@ -1,6 +1,6 @@
 export default function AboutPage() {
     return (
-      <div className="bg-[#C1E899] text-black min-h-screen py-8 px-4 md:px-8">
+      <div className="bg-[#A8B5A6] text-black min-h-screen py-8 px-4 md:px-8">
         {/* Container for the content */}
         <div className="max-w-4xl mx-auto bg-[#E6F0DC] p-6 md:p-8 rounded-lg shadow-md space-y-6">
           <h1 className="text-3xl font-bold">About CuraFitt</h1>
