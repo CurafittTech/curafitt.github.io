@@ -21,7 +21,7 @@ export default function CareersPage() {
                 </p>
                 <div className="mt-4">
                   <a
-                    href="https://forms.gle/YOUR_GOOGLE_FORM"
+                    href="https://forms.gle/8zby2SUn1VVEQpvs9"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block bg-[#9ACFFA] hover:bg-[#72B8F9] text-black font-semibold py-2 px-4 rounded transition-colors"
@@ -39,7 +39,7 @@ export default function CareersPage() {
                 </p>
                 <div className="mt-4">
                   <a
-                    href="https://forms.gle/YOUR_GOOGLE_FORM"
+                    href="https://forms.gle/8zby2SUn1VVEQpvs9"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block bg-[#9ACFFA] hover:bg-[#72B8F9] text-black font-semibold py-2 px-4 rounded transition-colors"
@@ -50,12 +50,11 @@ export default function CareersPage() {
               </div>
             </div>
           </section>
-  
-          {/* Market Research Analyst */}
+
           <section className="mb-10">
             <h2 className="text-2xl font-semibold mb-4">Market Research Analyst</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {/* Sales Representative */}
+              {/* Market Research Analyst */}
               <div className="bg-[#E6F0DC] shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow">
                 <h3 className="text-xl font-semibold">Sales Representative</h3>
                 <p className="mt-2">
@@ -64,7 +63,7 @@ export default function CareersPage() {
                 </p>
                 <div className="mt-4">
                   <a
-                    href="https://forms.gle/YOUR_GOOGLE_FORM"
+                    href="https://forms.gle/8zby2SUn1VVEQpvs9"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block bg-[#9ACFFA] hover:bg-[#72B8F9] text-black font-semibold py-2 px-4 rounded transition-colors"
@@ -82,7 +81,7 @@ export default function CareersPage() {
                 </p>
                 <div className="mt-4">
                   <a
-                    href="https://forms.gle/YOUR_GOOGLE_FORM"
+                    href="https://forms.gle/8zby2SUn1VVEQpvs9"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block bg-[#9ACFFA] hover:bg-[#72B8F9] text-black font-semibold py-2 px-4 rounded transition-colors"
@@ -99,7 +98,7 @@ export default function CareersPage() {
             Interested in joining us but don’t see a position that matches your skillset?
             Fill out our{' '}
             <a
-              href="https://forms.gle/YOUR_GOOGLE_FORM"
+              href="https://forms.gle/8zby2SUn1VVEQpvs9"
               className="text-blue-600 underline"
               target="_blank"
               rel="noopener noreferrer"
