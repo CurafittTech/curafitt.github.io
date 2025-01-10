@@ -9,12 +9,18 @@ export default function ProductPage() {
             insights to revolutionize ACL rehabilitation and improve physical therapy outcomes.
           </p>
   
-          {/* Placeholder image #1 (main product image) */}
-          <div className="flex justify-center">
+            
+            {/* Updated Section: Two Portrait-Style Images */}
+          <div className="flex justify-center gap-4">
             <img
-              src="/product_img_1.png"
-              alt="CuraFitt Product Overview"
-              className="rounded shadow-md w-full max-w-2xl"
+              src="/cura_app1.png"
+              alt="CuraFitt App Screenshot 1"
+              className="rounded shadow-md w-1/2 object-contain max-w-xs"
+            />
+            <img
+              src="/cura_app2.png"
+              alt="CuraFitt App Screenshot 2"
+              className="rounded shadow-md w-1/2 object-contain max-w-xs"
             />
           </div>
   
@@ -26,12 +32,27 @@ export default function ProductPage() {
             is tailored to maximize progress.
           </p>
   
-          {/* Placeholder image #2 */}
-          <div className="flex justify-center">
+          {/* Updated Section: Four Additional Images */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <img
-              src="/product_img_2.png"
-              alt="CuraFitt Product Features"
-              className="rounded shadow-md w-full max-w-2xl"
+              src="/cura_app3.png"
+              alt="CuraFitt App Screenshot 3"
+              className="rounded shadow-md w-full object-contain"
+            />
+            <img
+              src="/cura_app4.png"
+              alt="CuraFitt App Screenshot 4"
+              className="rounded shadow-md w-full object-contain"
+            />
+            <img
+              src="/cura_app5.png"
+              alt="CuraFitt App Screenshot 5"
+              className="rounded shadow-md w-full object-contain"
+            />
+            <img
+              src="/cura_app6.png"
+              alt="CuraFitt App Screenshot 6"
+              className="rounded shadow-md w-full object-contain"
             />
           </div>
   
@@ -42,26 +63,39 @@ export default function ProductPage() {
             tracking ensure you always know where you stand and what’s next in your recovery plan.
           </p>
   
-          {/* Key Benefits Section */}
-          <div>
-            <h2 className="text-xl font-semibold mb-2">Key Benefits</h2>
-            <ul className="list-disc list-inside pl-4 space-y-2">
-              <li>Actionable Insights for Physical Therapists</li>
-              <li>Gamified Progress Tracking for Patients</li>
-              <li>Enhanced Patient-Therapist Communication</li>
-              <li>Convenient Integration with Busy Lifestyles</li>
-            </ul>
-          </div>
-  
-          {/* Placeholder image #3 (optional) */}
+          {/* Key Benefits of CuraFitt */}
           <div className="flex justify-center">
-            <img
-              src="/product_img_3.png"
-              alt="CuraFitt Additional Feature"
-              className="rounded shadow-md w-full max-w-2xl"
-            />
+              <img
+                  src="/cura_prod7.png"
+                  alt="CuraFitt Additional Feature"
+                  className="rounded shadow-md w-full max-w-2xl"
+                  />
           </div>
         </div>
       </div>
     )
   }
+
+
+
+
+
+// //          {/* Placeholder image #1 (main product image) */}
+          // <div className="flex justify-center">
+            // <img
+              // src="/product_img_1.png"
+              // alt="CuraFitt Product Overview"
+              // className="rounded shadow-md w-full max-w-2xl"
+            // />
+          // </div>
+
+
+
+// {/* Placeholder image #2 */}
+          // <div className="flex justify-center">
+            // <img
+              // src="/product_img_2.png"
+              // alt="CuraFitt Product Features"
+              // className="rounded shadow-md w-full max-w-2xl"
+            // />
+          // </div>
