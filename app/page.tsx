@@ -19,7 +19,7 @@ export default function HomePage() {
   }, [])
 
   return (
-    <div className="bg-[#C1E899] text-black min-h-screen">
+    <div className="bg-[#A8B5A6] text-black min-h-screen">
       {/* Hero Section: Left (Slogan) + Right (Image) */}
       <section className="flex flex-col md:flex-row items-center justify-center py-8 md:py-16 px-4 md:px-8">
         {/* Slogan (Left) */}
@@ -28,7 +28,7 @@ export default function HomePage() {
             Revolutionizing Recovery: Smarter Physical Therapy for Faster Results
           </h1>
           <p className="text-lg">
-            Discover how our innovative solutions transform ACL rehabilitation 
+            Discover how our innovative solutions transform rehabilitation 
             for patients and physical therapists alike.
           </p>
         </div>
@@ -58,17 +58,17 @@ export default function HomePage() {
       <section className="bg-[#E6F0DC] py-8 px-4 md:px-8">
         <div className="text-center max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-4">
-            Empowering Faster, Smarter ACL Recovery
+            Empowering Faster, Smarter Recovery
           </h2>
           <p className="mb-6">
             We design cutting-edge wearable devices that provide real-time feedback 
-            and data-driven insights to revolutionize ACL rehabilitation and improve 
+            and data-driven insights to revolutionize rehabilitation and improve 
             physical therapy outcomes.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4">
             <a
-              href="https://forms.gle/dummyGoogleLink"
+              href="https://forms.gle/kkYfrSBzzLPGXUNA6"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#9ACFFA] hover:bg-[#72B8F9] text-black font-semibold py-2 px-6 rounded transition-colors inline-block"
@@ -76,15 +76,7 @@ export default function HomePage() {
               Request a Demo
             </a>
             <a
-              href="https://forms.gle/dummyGoogleLink"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#9ACFFA] hover:bg-[#72B8F9] text-black font-semibold py-2 px-6 rounded transition-colors inline-block"
-            >
-              Be a Part of the Trials
-            </a>
-            <a
-              href="https://forms.gle/dummyGoogleLink"
+              href="https://forms.gle/g7rFhkXL4Q4ouAAc9"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#9ACFFA] hover:bg-[#72B8F9] text-black font-semibold py-2 px-6 rounded transition-colors inline-block"
