@@ -1,6 +1,6 @@
 export default function ProductPage() {
     return (
-      <div className="bg-[#C1E899] min-h-screen text-black px-4 py-8">
+      <div className="bg-[#A8B5A6] min-h-screen text-black px-4 py-8">
         <div className="max-w-5xl mx-auto bg-[#E6F0DC] p-6 md:p-8 rounded-lg shadow-md space-y-6">
           <h1 className="text-3xl font-bold">Our Product</h1>
   
