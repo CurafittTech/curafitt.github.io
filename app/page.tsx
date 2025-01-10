@@ -19,7 +19,7 @@ export default function HomePage() {
   }, [])
 
   return (
-    <div className="bg-[#C1E899] text-black min-h-screen">
+    <div className="bg-[#A8B5A6] text-black min-h-screen">
       {/* Hero Section: Left (Slogan) + Right (Image) */}
       <section className="flex flex-col md:flex-row items-center justify-center py-8 md:py-16 px-4 md:px-8">
         {/* Slogan (Left) */}
