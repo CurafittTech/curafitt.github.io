@@ -68,7 +68,7 @@ export default function HomePage() {
 
           <div className="flex flex-wrap items-center justify-center gap-4">
             <a
-              href="https://forms.gle/dummyGoogleLink"
+              href="https://forms.gle/kkYfrSBzzLPGXUNA6"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#9ACFFA] hover:bg-[#72B8F9] text-black font-semibold py-2 px-6 rounded transition-colors inline-block"
@@ -76,15 +76,7 @@ export default function HomePage() {
               Request a Demo
             </a>
             <a
-              href="https://forms.gle/dummyGoogleLink"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#9ACFFA] hover:bg-[#72B8F9] text-black font-semibold py-2 px-6 rounded transition-colors inline-block"
-            >
-              Be a Part of the Trials
-            </a>
-            <a
-              href="https://forms.gle/dummyGoogleLink"
+              href="https://forms.gle/g7rFhkXL4Q4ouAAc9"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#9ACFFA] hover:bg-[#72B8F9] text-black font-semibold py-2 px-6 rounded transition-colors inline-block"
