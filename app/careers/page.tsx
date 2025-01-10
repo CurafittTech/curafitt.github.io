@@ -4,7 +4,7 @@ export default function CareersPage() {
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl font-bold mb-6">Join Our Team at CuraFitt</h1>
           <p className="mb-4">
-            We’re always on the lookout for talented individuals who are passionate
+            We&rsquo;re always on the lookout for talented individuals who are passionate
             about revolutionizing physical therapy.
           </p>
   
@@ -80,7 +80,7 @@ export default function CareersPage() {
                 <h3 className="text-xl font-semibold">Marketing Specialist</h3>
                 <p className="mt-2">
                   Develop creative campaigns to spread awareness about
-                  CuraFitt’s mission, solutions, and success stories.
+                  CuraFitt&rsquo;s mission, solutions, and success stories.
                 </p>
                 <div className="mt-4">
                   <a
@@ -98,7 +98,7 @@ export default function CareersPage() {
   
           {/* General CTA */}
           <p className="mb-4">
-            Interested in joining us but don’t see a position that matches your skillset?
+            Interested in joining us but don&rsquo;t see a position that matches your skillset?
             Fill out our{' '}
             <a
               href="https://forms.gle/YOUR_GOOGLE_FORM"
@@ -108,7 +108,7 @@ export default function CareersPage() {
             >
               general application form
             </a>
-            {' '}and we’ll be in touch!
+            {' '}and we&rsquo;ll be in touch!
           </p>
         </div>
       </div>

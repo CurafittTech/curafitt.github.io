@@ -4,7 +4,7 @@ export default function ContactPage() {
         <div className="max-w-xl w-full bg-[#E6F0DC] rounded-lg shadow-md p-6 md:p-8 text-center space-y-6">
           <h1 className="text-3xl font-bold">Contact Us</h1>
           <p>
-            We’d love to hear from you! Whether you have questions about our product,
+            We&rsquo;d love to hear from you! Whether you have questions about our product,
             want to schedule a demo, or just say hello — drop us a line.
           </p>
   
@@ -38,7 +38,7 @@ export default function ContactPage() {
                 >
                   contact form
                 </a>{' '}
-                and we’ll get back to you as soon as possible.
+                and we&rsquo;ll get back to you as soon as possible.
               </p>
             </div>
           </div>

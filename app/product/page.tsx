@@ -5,7 +5,7 @@ export default function ProductPage() {
           <h1 className="text-3xl font-bold">Our Product</h1>
   
           <p>
-            Curafitt’s wearable device and platform offers real-time feedback and data-driven 
+            Curafitt&rsquo;s wearable device and platform offers real-time feedback and data-driven 
             insights to revolutionize ACL rehabilitation and improve physical therapy outcomes.
           </p>
   
@@ -36,10 +36,10 @@ export default function ProductPage() {
           </div>
   
           <p>
-            Whether you’re an athlete recovering from surgery or a physical therapist managing 
-            multiple patients, Curafitt’s integrated platform provides actionable insights 
+            Whether you&rsquo;re an athlete recovering from surgery or a physical therapist managing 
+            multiple patients, Curafitt&rsquo;s integrated platform provides actionable insights 
             that empower you to make data-driven decisions. Personalized metrics and goal 
-            tracking ensure you always know where you stand and what’s next in your recovery plan.
+            tracking ensure you always know where you stand and what&rsquo;s next in your recovery plan.
           </p>
   
           {/* Key Benefits Section */}
