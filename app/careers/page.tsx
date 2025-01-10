@@ -12,11 +12,11 @@ export default function CareersPage() {
           <section className="mb-10">
             <h2 className="text-2xl font-semibold mb-4">Engineering</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {/* Software Engineer */}
+              {/* Embedded Software Engineer */}
               <div className="bg-[#E6F0DC] shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-semibold">Software Engineer</h3>
+                <h3 className="text-xl font-semibold">Embedded Software Engineer</h3>
                 <p className="mt-2">
-                  Help build and maintain our cutting-edge software products,
+                  Help build and maintain our cutting-edge wearable products,
                   ensuring high performance, scalability, and reliability.
                 </p>
                 <div className="mt-4">
@@ -31,12 +31,11 @@ export default function CareersPage() {
                 </div>
               </div>
   
-              {/* Machine Learning Engineer */}
+              {/* Mobile Application Developer */}
               <div className="bg-[#E6F0DC] shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-semibold">Machine Learning Engineer</h3>
+                <h3 className="text-xl font-semibold">Mobile Application Developer</h3>
                 <p className="mt-2">
-                  Develop and optimize ML models to power advanced analytics
-                  and insights for ACL rehabilitation tracking.
+                  Develop a mobile application that will be the bases of human interation with our product. 
                 </p>
                 <div className="mt-4">
                   <a
@@ -52,15 +51,15 @@ export default function CareersPage() {
             </div>
           </section>
   
-          {/* Sales & Marketing Section */}
+          {/* Market Research Analyst */}
           <section className="mb-10">
-            <h2 className="text-2xl font-semibold mb-4">Sales & Marketing</h2>
+            <h2 className="text-2xl font-semibold mb-4">Market Research Analyst</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {/* Sales Representative */}
               <div className="bg-[#E6F0DC] shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow">
                 <h3 className="text-xl font-semibold">Sales Representative</h3>
                 <p className="mt-2">
-                  Drive growth by connecting our products with clinics,
+                  Drive growth by researching and connecting our products with clinics,
                   hospitals, and potential clients worldwide.
                 </p>
                 <div className="mt-4">
@@ -75,12 +74,11 @@ export default function CareersPage() {
                 </div>
               </div>
   
-              {/* Marketing Specialist */}
+              {/* Physical Therapy Consultant */}
               <div className="bg-[#E6F0DC] shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-semibold">Marketing Specialist</h3>
+                <h3 className="text-xl font-semibold">Physical Therapy Consultant</h3>
                 <p className="mt-2">
-                  Develop creative campaigns to spread awareness about
-                  CuraFitt’s mission, solutions, and success stories.
+                  Provide PT expertise and work with a team of engineers to design and develop product.
                 </p>
                 <div className="mt-4">
                   <a
