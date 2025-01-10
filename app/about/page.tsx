@@ -7,7 +7,7 @@ export default function AboutPage() {
   
           <p>
             At Curafitt, we believe recovery is more than just regaining strength—
-            it's about reclaiming your life. Our journey began with a simple
+            it&#39;s about reclaiming your life. Our journey began with a simple
             but powerful question: How can we make recovery easier, faster,
             and more engaging for both patients and physical therapists?
           </p>
@@ -50,7 +50,7 @@ export default function AboutPage() {
             Our team is a diverse group of innovators — engineers and healthcare
             enthusiasts — united by a shared passion for creating technology
             that truly makes a difference. Together, we are building a future
-            where recovery isn’t just a challenge—it’s an opportunity to thrive.
+            where recovery isn&#39;t just a challenge—it&#39;s an opportunity to thrive.
           </p>
   
           {/* Placeholder image #3 */}
