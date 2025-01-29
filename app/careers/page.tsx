@@ -35,7 +35,7 @@ export default function CareersPage() {
               <div className="bg-[#E6F0DC] shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow">
                 <h3 className="text-xl font-semibold">Mobile Application Developer</h3>
                 <p className="mt-2">
-                  Develop a mobile application that will be the bases of human interation with our product. 
+                  Develop a mobile application that will be the basis of human interation with our product. 
                 </p>
                 <div className="mt-4">
                   <a
