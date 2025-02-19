@@ -45,7 +45,7 @@ export default function TeamPage() {
     ]
   
     return (
-      <div className="bg-[#A8B5A6] min-h-screen text-black px-4 py-8">
+      <div className="bg-[#ffffff] min-h-screen text-black px-4 py-8">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl font-bold mb-4">Meet the Team</h1>
           <p className="mb-8 text-lg">
@@ -58,7 +58,7 @@ export default function TeamPage() {
             {coFounders.map((founder, idx) => (
               <div
                 key={idx}
-                className="flex-1 bg-[#E6F0DC] rounded-lg shadow-md p-6 flex flex-col items-center"
+                className="flex-1 bg-[#ffffff] rounded-lg shadow-md p-6 flex flex-col items-center"
               >
                 <img
                   src={founder.image}
@@ -84,7 +84,7 @@ export default function TeamPage() {
             {teamMembers.map((member, idx) => (
               <div
                 key={idx}
-                className="bg-[#E6F0DC] rounded-lg shadow-md p-6 flex flex-col items-center"
+                className="bg-[#ffffff] rounded-lg shadow-md p-6 flex flex-col items-center"
               >
                 <img
                   src={member.image}

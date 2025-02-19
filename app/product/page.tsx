@@ -1,7 +1,7 @@
 export default function ProductPage() {
     return (
-      <div className="bg-[#A8B5A6] min-h-screen text-black px-4 py-8">
-        <div className="max-w-5xl mx-auto bg-[#E6F0DC] p-6 md:p-8 rounded-lg shadow-md space-y-6">
+      <div className="bg-[#ffffff] min-h-screen text-black px-4 py-8">
+        <div className="max-w-5xl mx-auto bg-[#ffffff] p-6 md:p-8 rounded-lg shadow-md space-y-6">
           <h1 className="text-3xl font-bold">Our Product</h1>
   
           <p>
@@ -37,22 +37,22 @@ export default function ProductPage() {
             <img
               src="/cura_app3.png"
               alt="CuraFitt App Screenshot 3"
-              className="rounded shadow-md w-full object-contain"
+              className="rounded shadow-md w-full object-contain max-w-xs"
             />
             <img
               src="/cura_app4.png"
               alt="CuraFitt App Screenshot 4"
-              className="rounded shadow-md w-full object-contain"
+              className="rounded shadow-md w-full object-contain max-w-xs"
             />
             <img
               src="/cura_app5.png"
               alt="CuraFitt App Screenshot 5"
-              className="rounded shadow-md w-full object-contain"
+              className="rounded shadow-md w-full object-contain max-w-xs"
             />
             <img
               src="/cura_app6.png"
               alt="CuraFitt App Screenshot 6"
-              className="rounded shadow-md w-full object-contain"
+              className="rounded shadow-md w-full object-contain max-w-xs"
             />
           </div>
   

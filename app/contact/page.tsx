@@ -1,11 +1,11 @@
 export default function ContactPage() {
     return (
-      <div className="bg-[#A8B5A6] min-h-screen text-black flex items-center justify-center px-4 py-8">
-        <div className="max-w-xl w-full bg-[#E6F0DC] rounded-lg shadow-md p-6 md:p-8 text-center space-y-6">
+      <div className="bg-[#ffffff] min-h-screen text-black flex items-center justify-center px-4 py-8">
+        <div className="max-w-xl w-full bg-[#ffffff] rounded-lg shadow-md p-6 md:p-8 text-center space-y-6">
           <h1 className="text-3xl font-bold">Contact Us</h1>
           <p>
             We&rsquo;d love to hear from you! Whether you have questions about our product,
-            want to schedule a demo, or just say hello — drop us a line.
+            want to schedule a demo, or just say hello — drop us an email.
           </p>
   
           <div className="flex flex-col space-y-4">

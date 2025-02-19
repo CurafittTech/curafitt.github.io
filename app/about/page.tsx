@@ -1,12 +1,12 @@
 export default function AboutPage() {
     return (
-      <div className="bg-[#A8B5A6] text-black min-h-screen py-8 px-4 md:px-8">
+      <div className="bg-[#ffffff] text-black min-h-screen py-8 px-4 md:px-8">
         {/* Container for the content */}
-        <div className="max-w-4xl mx-auto bg-[#E6F0DC] p-6 md:p-8 rounded-lg shadow-md space-y-6">
+        <div className="max-w-4xl mx-auto bg-[#ffffff] p-6 md:p-8 rounded-lg shadow-md space-y-6">
           <h1 className="text-3xl font-bold">About CuraFitt</h1>
   
           <p>
-            At Curafitt, we believe recovery is more than just regaining strength—
+            At CuraFitt, we believe recovery is more than just regaining strength—
             it&#39;s about reclaiming your life. Our journey began with a simple
             but powerful question: How can we make recovery easier, faster,
             and more engaging for both patients and physical therapists?
@@ -22,8 +22,7 @@ export default function AboutPage() {
           </div>
   
           <p>
-            The inspiration came from personal experiences with injuries and
-            the challenges faced during physical therapy. We realized that
+            We found inspiration in our own injuries and challenges faced during physical therapy. We realized that
             despite advancements in healthcare, recovery programs often lack
             the tools to keep patients engaged and therapists informed.
             With that insight, we set out to create a solution that bridges
@@ -63,7 +62,7 @@ export default function AboutPage() {
           </div>
   
           <p className="font-semibold text-lg">
-            Curafitt: Your Partner in Recovery.
+            CuraFitt: Your Partner in Recovery.
           </p>
         </div>
       </div>

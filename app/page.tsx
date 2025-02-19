@@ -19,17 +19,16 @@ export default function HomePage() {
   }, [])
 
   return (
-    <div className="bg-[#A8B5A6] text-black min-h-screen">
+    <div className="bg-[#ffffff] text-black min-h-screen">
       {/* Hero Section: Left (Slogan) + Right (Image) */}
       <section className="flex flex-col md:flex-row items-center justify-center py-8 md:py-16 px-4 md:px-8">
         {/* Slogan (Left) */}
         <div className="w-full md:w-1/2 mb-8 md:mb-0 md:pr-8">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
-            Revolutionizing Recovery: Smarter Physical Therapy for Faster Results
+            Smart Physical Therapy
           </h1>
           <p className="text-lg">
-            Discover how our innovative solutions transform rehabilitation 
-            for patients and physical therapists alike.
+            Precision rehab with our smart knee brace! Your personal physical therapy guide - anytime, anywhere
           </p>
         </div>
 
@@ -44,7 +43,7 @@ export default function HomePage() {
       </section>
 
       {/* Slideshow */}
-      <section className="bg-[#E6F0DC] py-6 px-4 md:px-8">
+      <section className="bg-[#ffffff] py-6 px-4 md:px-8">
         <div className="w-full h-64 mb-8 mx-auto max-w-4xl">
           <img
             src={images[currentIndex]}
@@ -55,7 +54,7 @@ export default function HomePage() {
       </section>
 
       {/* Value Proposition + CTA */}
-      <section className="bg-[#E6F0DC] py-8 px-4 md:px-8">
+      <section className="bg-[#ffffff] py-8 px-4 md:px-8">
         <div className="text-center max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-4">
             Empowering Faster, Smarter Recovery

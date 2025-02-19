@@ -3,7 +3,7 @@ import { ReactNode } from 'react'
 import './globals.css'
 
 export const metadata = {
-  title: 'Curafitt',
+  title: 'CuraFitt',
   description: 'Revolutionizing Recovery: Smarter Physical Therapy for Faster Results',
 }
 
@@ -21,7 +21,7 @@ export default function RootLayout({
             <div className="flex items-center space-x-4">
               {/* Logo */}
               <img
-                src="/curafitt_logo.png"
+                src="/cf_cura.png"
                 alt="CuraFitt Logo"
                 className="h-10 w-10 object-contain"
               />

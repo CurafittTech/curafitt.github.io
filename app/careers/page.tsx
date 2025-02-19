@@ -1,6 +1,6 @@
 export default function CareersPage() {
     return (
-      <div className="bg-[#A8B5A6] min-h-screen text-black px-4 py-8">
+      <div className="bg-[#ffffff] min-h-screen text-black px-4 py-8">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl font-bold mb-6">Join Our Team at CuraFitt</h1>
           <p className="mb-4">
@@ -13,7 +13,7 @@ export default function CareersPage() {
             <h2 className="text-2xl font-semibold mb-4">Engineering</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {/* Embedded Software Engineer */}
-              <div className="bg-[#E6F0DC] shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow">
+              <div className="bg-[#ffffff] shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow">
                 <h3 className="text-xl font-semibold">Embedded Software Engineer</h3>
                 <p className="mt-2">
                   Help build and maintain our cutting-edge wearable products,
@@ -24,7 +24,7 @@ export default function CareersPage() {
                     href="https://forms.gle/8zby2SUn1VVEQpvs9"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block bg-[#9ACFFA] hover:bg-[#72B8F9] text-black font-semibold py-2 px-4 rounded transition-colors"
+                    className="inline-block bg-[#ffffff] hover:bg-[#72B8F9] text-black font-semibold py-2 px-4 rounded transition-colors"
                   >
                     Apply Now
                   </a>
@@ -32,7 +32,7 @@ export default function CareersPage() {
               </div>
   
               {/* Mobile Application Developer */}
-              <div className="bg-[#E6F0DC] shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow">
+              <div className="bg-[#ffffff] shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow">
                 <h3 className="text-xl font-semibold">Mobile Application Developer</h3>
                 <p className="mt-2">
                   Develop a mobile application that will be the basis of human interation with our product. 
@@ -42,7 +42,7 @@ export default function CareersPage() {
                     href="https://forms.gle/8zby2SUn1VVEQpvs9"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block bg-[#9ACFFA] hover:bg-[#72B8F9] text-black font-semibold py-2 px-4 rounded transition-colors"
+                    className="inline-block bg-[#ffffff] hover:bg-[#72B8F9] text-black font-semibold py-2 px-4 rounded transition-colors"
                   >
                     Apply Now
                   </a>
@@ -55,7 +55,7 @@ export default function CareersPage() {
             <h2 className="text-2xl font-semibold mb-4">Market Research Analyst</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {/* Market Research Analyst */}
-              <div className="bg-[#E6F0DC] shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow">
+              <div className="bg-[#ffffff] shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow">
                 <h3 className="text-xl font-semibold">Sales Representative</h3>
                 <p className="mt-2">
                   Drive growth by researching and connecting our products with clinics,
@@ -66,7 +66,7 @@ export default function CareersPage() {
                     href="https://forms.gle/8zby2SUn1VVEQpvs9"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block bg-[#9ACFFA] hover:bg-[#72B8F9] text-black font-semibold py-2 px-4 rounded transition-colors"
+                    className="inline-block bg-[#ffffff] hover:bg-[#72B8F9] text-black font-semibold py-2 px-4 rounded transition-colors"
                   >
                     Apply Now
                   </a>
@@ -74,7 +74,7 @@ export default function CareersPage() {
               </div>
   
               {/* Physical Therapy Consultant */}
-              <div className="bg-[#E6F0DC] shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow">
+              <div className="bg-[#ffffff] shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow">
                 <h3 className="text-xl font-semibold">Physical Therapy Consultant</h3>
                 <p className="mt-2">
                   Provide PT expertise and work with a team of engineers to design and develop product.
@@ -84,7 +84,7 @@ export default function CareersPage() {
                     href="https://forms.gle/8zby2SUn1VVEQpvs9"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block bg-[#9ACFFA] hover:bg-[#72B8F9] text-black font-semibold py-2 px-4 rounded transition-colors"
+                    className="inline-block bg-[#ffffff] hover:bg-[#72B8F9] text-black font-semibold py-2 px-4 rounded transition-colors"
                   >
                     Apply Now
                   </a>
