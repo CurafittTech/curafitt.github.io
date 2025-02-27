@@ -75,27 +75,3 @@ export default function ProductPage() {
       </div>
     )
   }
-
-
-
-
-
-// //          {/* Placeholder image #1 (main product image) */}
-          // <div className="flex justify-center">
-            // <img
-              // src="/product_img_1.png"
-              // alt="CuraFitt Product Overview"
-              // className="rounded shadow-md w-full max-w-2xl"
-            // />
-          // </div>
-
-
-
-// {/* Placeholder image #2 */}
-          // <div className="flex justify-center">
-            // <img
-              // src="/product_img_2.png"
-              // alt="CuraFitt Product Features"
-              // className="rounded shadow-md w-full max-w-2xl"
-            // />
-          // </div>

@@ -21,28 +21,40 @@ export default function HomePage() {
   return (
     <div className="bg-[#ffffff] text-black min-h-screen">
       {/* Hero Section: Left (Slogan) + Right (Image) */}
-      <section className="flex flex-col md:flex-row items-center justify-center py-8 md:py-16 px-4 md:px-8">
-        {/* Slogan (Left) */}
-        <div className="w-full md:w-1/2 mb-8 md:mb-0 md:pr-8">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
-            Smart Physical Therapy
-          </h1>
-          <p className="text-lg">
-            Precision rehab with our smart knee brace! Your personal physical therapy guide - anytime, anywhere
-          </p>
-        </div>
 
-        {/* Image (Right) - replace with your own linked image */}
-        <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-          <img
-            src="https://via.placeholder.com/500x300.png?text=Your+Hero+Image"
-            alt="Hero Section Image"
-            className="object-cover rounded-lg shadow-md w-full max-w-md"
-          />
-        </div>
-      </section>
+    
+      <section className="relative w-full h-[60vh] flex items-center bg-white">
+  {/* Left - Dark Overlay with Stronger Blur */}
+  <div className="absolute inset-0 w-1/2 h-full bg-black/60 backdrop-blur-lg"></div>
 
-      {/* Slideshow */}
+  {/* Left - Text Content */}
+  <div className="relative z-10 w-full md:w-1/2 text-white p-6 md:p-12">
+    <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
+      Precision rehab with the smartest knee brace
+    </h1>
+    <p className="text-lg">
+      A brace that can be your personal physical therapy guide - anytime, anywhere.
+    </p>
+    <a
+      href="https://forms.gle/kkYfrSBzzLPGXUNA6"
+      className="mt-4 inline-block bg-blue-600 hover:bg-blue-800 text-white font-semibold py-2 px-4 rounded transition-colors"
+    >
+      Request a Demo
+    </a>
+  </div>
+
+  {/* Right - Blurred Image */}
+  <div className="w-full md:w-1/2 h-[60vh] relative overflow-hidden">
+    <img 
+      src="/knee-hero.jpg" 
+      alt="Hero Section Image"
+      className="w-full h-full object-cover blur-xs"
+    />
+  </div>
+</section>
+
+
+      {/* Slideshow
       <section className="bg-[#ffffff] py-6 px-4 md:px-8">
         <div className="w-full h-64 mb-8 mx-auto max-w-4xl">
           <img
@@ -51,16 +63,16 @@ export default function HomePage() {
             className="w-full h-full object-cover rounded-md shadow-md"
           />
         </div>
-      </section>
+      </section> */}
 
       {/* Value Proposition + CTA */}
       <section className="bg-[#ffffff] py-8 px-4 md:px-8">
         <div className="text-center max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-4">
-            Empowering Faster, Smarter Recovery
+            Empowering you to recover faster.
           </h2>
           <p className="mb-6">
-            We design cutting-edge wearable devices that provide real-time feedback 
+            We design cutting-edge wearable braces that provide real-time feedback 
             and data-driven insights to revolutionize rehabilitation and improve 
             physical therapy outcomes.
           </p>

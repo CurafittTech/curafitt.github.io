@@ -1,6 +1,6 @@
 export default function TeamPage() {
-    // Two co-founders with bigger, square images
-    const coFounders = [
+    // Remaining team members
+    const teamMembers = [
       {
         name: 'Vidhi Gondalia',
         role: 'Co-Founder',
@@ -13,13 +13,15 @@ export default function TeamPage() {
         image: '/prasannabansode.png',
         linkedin: 'https://www.linkedin.com/in/prasanna-bansode',
       },
-    ]
-  
-    // Remaining team members (4 people per row)
-    const teamMembers = [
+      {
+        name: "Manas Pange",
+        role: "Embedded Software Engineer",
+        image: "/manaspange.png",
+        linkedin: "https://www.linkedin.com/in/devanshi--patel/",
+      },
       {
         name: 'Devanshi Patel',
-        role: 'Application Developer',
+        role: 'Mobile Application Developer',
         image: '/devanshipatel.png',
         linkedin: 'https://www.linkedin.com/in/devanshi--patel/',
       },
@@ -37,7 +39,7 @@ export default function TeamPage() {
       },
       {
         name: 'Avinash Bedi',
-        role: 'Market Research and Outreach',
+        role: 'Market Research Analyst',
         image: '/avibedi.png',
         linkedin: 'https://www.linkedin.com/in/avinash-bedi',
       },
@@ -45,66 +47,34 @@ export default function TeamPage() {
     ]
   
     return (
-      <div className="bg-[#ffffff] min-h-screen text-black px-4 py-8">
-        <div className="max-w-7xl mx-auto">
-          <h1 className="text-3xl font-bold mb-4">Meet the Team</h1>
-          <p className="mb-8 text-lg">
-            Our team is a diverse group of innovators—engineers and healthcare enthusiasts—
-            united by a shared passion for creating technology that truly makes a difference.
-          </p>
-  
-          {/* Co-Founders Section (side by side, bigger images) */}
-          <div className="flex flex-col md:flex-row gap-8 mb-10">
-            {coFounders.map((founder, idx) => (
-              <div
-                key={idx}
-                className="flex-1 bg-[#ffffff] rounded-lg shadow-md p-6 flex flex-col items-center"
+      <div className="bg-white min-h-screen text-black px-4 py-12">
+      <div className="max-w-6xl mx-auto text-center">
+        <h1 className="text-4xl font-bold mb-8">Meet the Team</h1>
+
+        {/* Team Members Grid */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+          {teamMembers.map((member, idx) => (
+            <div key={idx} className="flex flex-col items-center">
+              {/* Image without extra padding or background */}
+              <img
+                src={member.image}
+                alt={member.name}
+                className="w-40 h-48 object-cover rounded-md"
+              />
+              <h3 className="text-lg font-semibold mt-2">{member.name}</h3>
+              <p className="text-gray-600 text-sm">{member.role}</p>
+              <a
+                href={member.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#041c93] font-medium hover:underline mt-1"
               >
-                <img
-                  src={founder.image}
-                  alt={founder.name}
-                  className="mb-4 w-64 h-64 object-cover shadow-lg"
-                />
-                <h2 className="text-xl font-semibold">{founder.name}</h2>
-                <p className="text-sm mb-4">{founder.role}</p>
-                <a
-                  href={founder.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-[#9ACFFA] hover:bg-[#72B8F9] text-black font-semibold py-2 px-4 rounded transition-colors"
-                >
-                  Connect on LinkedIn
-                </a>
-              </div>
-            ))}
-          </div>
-  
-          {/* Other Team Members Section (4 columns, slightly smaller images) */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-            {teamMembers.map((member, idx) => (
-              <div
-                key={idx}
-                className="bg-[#ffffff] rounded-lg shadow-md p-6 flex flex-col items-center"
-              >
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="mb-4 w-48 h-48 object-cover shadow-lg"
-                />
-                <p className="font-semibold text-lg">{member.name}</p>
-                <p className="text-sm mb-4">{member.role}</p>
-                <a
-                  href={member.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-[#9ACFFA] hover:bg-[#72B8F9] text-black font-semibold py-2 px-4 rounded transition-colors"
-                >
-                  Connect on LinkedIn
-                </a>
-              </div>
-            ))}
-          </div>
+                Connect on LinkedIn
+              </a>
+            </div>
+          ))}
         </div>
       </div>
-    )
-  }
+    </div>
+  );
+}

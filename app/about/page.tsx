@@ -12,14 +12,14 @@ export default function AboutPage() {
             and more engaging for both patients and physical therapists?
           </p>
   
-          {/* Placeholder image #1 */}
+          {/* Placeholder image #1
           <div className="flex justify-center">
             <img
               src="https://via.placeholder.com/800x400.png?text=Recovery+Journey"
               alt="Placeholder: Recovery Journey"
               className="rounded shadow-md w-full max-w-2xl"
             />
-          </div>
+          </div> */}
   
           <p>
             We found inspiration in our own injuries and challenges faced during physical therapy. We realized that
@@ -29,7 +29,7 @@ export default function AboutPage() {
             the gap between care and technology.
           </p>
   
-          {/* Placeholder image #2 */}
+          {/* Placeholder image #2
           <div className="flex justify-center">
             <img
               src="https://via.placeholder.com/800x400.png?text=Bridging+Technology"
@@ -37,7 +37,7 @@ export default function AboutPage() {
               className="rounded shadow-md w-full max-w-2xl"
             />
           </div>
-  
+   */}
           <p>
             Our mission is to revolutionize physical therapy by empowering patients
             with tools to take charge of their recovery while equipping
@@ -52,14 +52,14 @@ export default function AboutPage() {
             where recovery isn&#39;t just a challenge—it&#39;s an opportunity to thrive.
           </p>
   
-          {/* Placeholder image #3 */}
+          {/* Placeholder image #3
           <div className="flex justify-center">
             <img
               src="https://via.placeholder.com/800x400.png?text=Innovation+in+PT"
               alt="Placeholder: Innovation in PT"
               className="rounded shadow-md w-full max-w-2xl"
             />
-          </div>
+          </div> */}
   
           <p className="font-semibold text-lg">
             CuraFitt: Your Partner in Recovery.
