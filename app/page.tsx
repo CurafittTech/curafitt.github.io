@@ -11,6 +11,7 @@ const images = [
 export default function HomePage() {
   const [currentIndex, setCurrentIndex] = useState(0)
 
+  
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length)
